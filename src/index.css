@@ -1,23 +1,23 @@
 body > img {
-    height: 100px;
-    width: auto;
+  height: 100px;
+  width: auto;
 }
 .menu {
-    border: 1px grey solid;
-    width: fit-content;
-    max-width: 200px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+  border: 1px grey solid;
+  width: fit-content;
+  max-width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .option {
-    padding: 7px;
-    min-width: 50px;
+  padding: 7px;
+  min-width: 50px;
 }
 .option:not(:last-child) {
-    border-bottom: 1px rgba(128, 128, 128, 0.801) solid;
+  border-bottom: 1px rgba(128, 128, 128, 0.801) solid;
 }
 .option:hover {
-    background-color: rgb(226, 226, 226);
+  background-color: rgb(226, 226, 226);
 }
