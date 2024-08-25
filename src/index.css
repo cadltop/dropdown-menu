@@ -1,7 +1,20 @@
-body > img {
+body,
+.button {
+  display: flex;
+}
+
+.button {
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+}
+
+.button > img {
   height: 100px;
   width: auto;
 }
+
 .menu {
   border: 1px grey solid;
   width: fit-content;
