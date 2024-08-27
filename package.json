@@ -1,5 +1,5 @@
 {
-  "name": "dropdown-menu",
+  "name": "@cadltop/dropdown-menu",
   "version": "1.0.0",
   "description": "is just my dropdown-menu",
   "main": "index.js",
