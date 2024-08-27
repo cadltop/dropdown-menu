@@ -1,13 +1,14 @@
 {
-  "name": "template",
+  "name": "dropdown-menu",
   "version": "1.0.0",
-  "description": "",
+  "description": "is just my dropdown-menu",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint ./src/**/*.js",
-    "prettier": "prettier --write ./src/"
+    "prettier": "prettier --write ./src/",
+    "fix": "eslint ./src/**/*.js && prettier --write ./src/"
   },
   "keywords": [],
   "author": "",
